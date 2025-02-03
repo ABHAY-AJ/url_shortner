@@ -47,17 +47,11 @@ Before running the project, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/url-shortener.git
+git clone https://github.com/ABHAY-AJ/url_shortner.git
 cd url-shortener
 ```
 
 ### 2. Backend Setup
-
-Navigate to the `backend` directory:
-
-```bash
-cd backend
-```
 
 #### Install dependencies:
 
@@ -78,8 +72,14 @@ GOOGLE_CLIENT_ID=your_google_client_id
 
 #### Start the backend server:
 
+Navigate to the `src` directory:
+
 ```bash
-npm start
+cd src
+```
+
+```bash
+node app.js
 ```
 
 ### 3. Frontend Setup
