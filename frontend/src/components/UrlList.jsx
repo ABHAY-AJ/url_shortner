@@ -31,6 +31,18 @@ const UrlList = () => {
     return <div>{error}</div>;
   }
 
+  // Handle copying short URL to clipboard
+  const handleCopy = (shortUrl) => {
+    navigator.clipboard.writeText(`https://url-shortner-cwki.onrender.com/api/urll/${shortUrl}`)
+      .then(() => {
+        alert('Short URL copied to clipboard!');
+      })
+      .catch((err) => {
+        console.error('Failed to copy URL:', err);
+        alert('Failed to copy URL. Please try again.');
+      });
+  };
+
   return (
     <div className="url-list-container">
       <h1>Short URLs</h1>
@@ -60,6 +72,7 @@ const UrlList = () => {
                 <td>{new Date(url.createdAt).toLocaleString()}</td>
                 <td>
                   <button onClick={() => navigate(`/url/${url.shortUrl}`)}>Analyze</button>
+                  <button onClick={() => handleCopy(url.shortUrl)} className="copy-url-button">Copy</button>
                 </td>
               </tr>
             ))}

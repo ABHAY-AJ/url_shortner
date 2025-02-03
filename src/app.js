@@ -38,6 +38,18 @@ const redisClient = redis.createClient({ host: 'redis', port: 6379 });
 redisClient.on('connect', () => console.log('Connected to Redis'));
 redisClient.on('error', (err) => console.log('Redis error:', err));
 
+
+// deployment config
+const path = require("path");
+__dirname = path.resolve();
+
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static(path.join(__dirname, "/frontend/build")));
+    app.get("*", (req, res)=>{
+        res.sendFile(path.join(__dirname, "frontend", "build", "index.html"));
+    });
+}
+
 // Start Server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
