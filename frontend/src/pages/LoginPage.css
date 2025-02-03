@@ -1,0 +1,39 @@
+/* LoginPage.css */
+
+/* Container for the login page */
+.login-container {
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 80px auto;
+    text-align: center;
+  }
+  
+  /* Title for the login page */
+  .login-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for Google login button */
+  .google-login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-login-button:hover {
+    background-color: #357ae8;
+  }
+  

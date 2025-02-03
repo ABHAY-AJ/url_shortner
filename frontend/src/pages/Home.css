@@ -1,0 +1,28 @@
+/* Home.css */
+
+/* Container for the home page */
+.home-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Title for the home page */
+  .home-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  /* Message when the user is not logged in */
+  .home-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  

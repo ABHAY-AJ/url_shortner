@@ -1,0 +1,106 @@
+/* Analytics.css */
+
+/* Container for the analytics page */
+.analytics-container {
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 30px auto;
+  }
+  
+  /* Title for the analytics section */
+  .analytics-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Subheading for analytics data */
+  .analytics-container h2 {
+    font-size: 1.8rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  /* Analytics data text (total clicks, unique users) */
+  .analytics-text {
+    font-size: 1.4rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* List of clicks by date */
+  .analytics-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .analytics-list li {
+    background-color: #ffffff;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .analytics-list li span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* List of URLs */
+  .analytics-url-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  
+  .analytics-url-list li {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .analytics-url-list li p {
+    margin: 5px 0;
+  }
+  
+  .analytics-url-list li p span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .analytics-url-list li p.total-clicks {
+    color: #28a745;
+  }
+  
+  .analytics-url-list li p.unique-users {
+    color: #17a2b8;
+  }
+  
+  /* Optional styles for responsiveness */
+  @media (max-width: 768px) {
+    .analytics-container {
+      padding: 20px;
+    }
+    .analytics-container h1 {
+      font-size: 2rem;
+    }
+    .analytics-container h2 {
+      font-size: 1.5rem;
+    }
+    .analytics-text {
+      font-size: 1.1rem;
+    }
+  }
+  

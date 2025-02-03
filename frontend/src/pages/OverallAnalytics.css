@@ -1,0 +1,57 @@
+/* OverallAnalytics.css */
+
+/* Container for the overall analytics page */
+.overall-analytics-container {
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  
+  /* Title for the overall analytics section */
+  .overall-analytics-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  /* Subheading for different sections */
+  .overall-analytics-container h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  /* Paragraph for the analytics data */
+  .overall-analytics-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* List of analytics data like Clicks by Date, OS Type, and Device Type */
+  .overall-analytics-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .overall-analytics-list li {
+    background-color: #ffffff;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overall-analytics-list li p {
+    margin: 5px 0;
+  }
+  
+  .overall-analytics-list li span {
+    font-weight: bold;
+  }
+  

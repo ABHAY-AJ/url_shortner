@@ -1,0 +1,55 @@
+/* UrlForm.css */
+
+/* Container style */
+.url-form-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Form title style */
+  .url-form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for Form Groups */
+  .url-form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for Form Controls */
+  .url-form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Style for Submit Button */
+  .url-form-button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .url-form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 576px) {
+    .url-form-container {
+      padding: 20px;
+    }
+    .url-form-title {
+      font-size: 1.2rem;
+    }
+  }
+  

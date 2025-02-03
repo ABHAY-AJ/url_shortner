@@ -1,0 +1,43 @@
+/* CustomNavbar.css */
+
+/* Customize Navbar background color */
+.custom-navbar {
+    background-color: #343a40 !important;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style for Navbar Brand */
+  .custom-navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  /* Style for Navbar Links */
+  .custom-navbar-link {
+    background-color: bisque;
+    font-size: 1rem;
+    color: #2c1427 !important;
+    margin-right: 15px;
+  }
+  
+  /* Style for Navbar Button */
+  .custom-navbar-button {
+    font-size: 1rem;
+    background-color: aquamarine;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+  }
+  
+  /* Add hover effect to links */
+  .custom-navbar-link:hover {
+    color: #00bcd4 !important;
+  }
+  
+  /* Add hover effect to buttons */
+  .custom-navbar-button:hover {
+    background-color: #00bcd4 !important;
+    border-color: #00bcd4 !important;
+  }
+  

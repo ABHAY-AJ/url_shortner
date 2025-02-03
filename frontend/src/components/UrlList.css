@@ -1,0 +1,107 @@
+/* Container for the URL list */
+.url-list-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;  /* Updated to allow wider containers */
+    margin: 20px auto;
+  }
+  
+  /* Make the table wrapper scrollable */
+  .url-list-table-wrapper {
+    overflow-x: auto;  /* Enable horizontal scroll */
+    -webkit-overflow-scrolling: touch;  /* Enable smooth scrolling for iOS */
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Table styles */
+  .url-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px; /* Ensure the table is wide enough to scroll */
+  }
+  
+  .url-list-table th,
+  .url-list-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .url-list-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .url-list-table td {
+    background-color: #fff;
+  }
+  
+  .url-list-table a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .url-list-table a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button styles for analyzing by topic */
+  .url-topic-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .url-topic-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .url-list-table th,
+    .url-list-table td {
+      padding: 8px;
+    }
+  
+    .url-list-table a {
+      font-size: 14px;
+    }
+  
+    .url-topic-button {
+      width: 100%;  /* Make the buttons full-width on smaller screens */
+      margin-bottom: 10px;
+    }
+  
+    /* Adjust the table layout for smaller screens */
+    .url-list-table th,
+    .url-list-table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  /* For very small screens (phones) */
+  @media (max-width: 480px) {
+    .url-list-container {
+      padding: 10px;
+    }
+  
+    .url-topic-button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .url-list-table th,
+    .url-list-table td {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  
