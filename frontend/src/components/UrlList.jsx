@@ -12,7 +12,7 @@ const UrlList = () => {
   useEffect(() => {
     const fetchUrls = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/url', {
+        const response = await axios.get('https://url-shortner-cwki.onrender.com/api/url', {
           headers: { Authorization: token },
         });
         setUrls(response.data);
@@ -51,7 +51,7 @@ const UrlList = () => {
             {urls.map((url) => (
               <tr key={url.shortUrl}>
                 <td>
-                  <a href={`http://localhost:5000/api/urll/${url.shortUrl}`} target="_blank" rel="noopener noreferrer">
+                  <a href={`https://url-shortner-cwki.onrender.com/api/urll/${url.shortUrl}`} target="_blank" rel="noopener noreferrer">
                     {url.shortUrl}
                   </a>
                 </td>
