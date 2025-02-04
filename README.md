@@ -1,3 +1,8 @@
+
+## Working Video
+[Watch Working Video](https://www.loom.com/share/b88d9ebfe38d42a39b0b9576bf62b277)
+
+
 # URL Shortener with Analytics
 
 A full-stack URL shortener application built with **Node.js** (Express) for the backend, **React** for the frontend, **MongoDB** for the database, and **Redis** for caching. Users can shorten long URLs, view analytics for their short URLs, and manage their links.
